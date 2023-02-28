@@ -11,6 +11,7 @@
 
     <modules>
         <module>sample-di</module>
+        <module>person-di</module>
     </modules>
 
     <properties>
