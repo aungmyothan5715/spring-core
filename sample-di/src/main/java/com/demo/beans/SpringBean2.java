@@ -14,5 +14,9 @@ public class SpringBean2 implements MyInterface {
         return 2;
     }
 
+    public String toString() {
+        return "Spring Bean Two";
+    }
+
 
 }

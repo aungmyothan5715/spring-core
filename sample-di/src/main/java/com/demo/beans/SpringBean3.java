@@ -14,4 +14,8 @@ public class SpringBean3 implements MyInterface {
     public int getOrder() {
         return 1;
     }
+
+    public String toString() {
+        return "Spring Bean Three";
+    }
 }

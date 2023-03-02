@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 
 @Component
-//@Order(3)
+@Order(3)
 public class SpringBean1 implements MyInterface, Ordered {
     public SpringBean1() {
         System.out.println("Spring Bean one");
@@ -14,6 +14,10 @@ public class SpringBean1 implements MyInterface, Ordered {
 
     @Override
     public int getOrder() {
-        return 1;
+        return 3;
+    }
+
+    public String toString() {
+        return "Spring Bean One";
     }
 }
